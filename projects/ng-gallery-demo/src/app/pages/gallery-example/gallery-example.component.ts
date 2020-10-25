@@ -1,7 +1,7 @@
 import { Component, ChangeDetectionStrategy, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { MediaChange, MediaObserver } from '@angular/flex-layout';
-import { GalleryItem, GalleryConfig, ThumbnailsPosition } from 'ng-gallery';
+import { GalleryItem, GalleryConfig, ThumbnailsPosition } from '../../../../../ng-gallery/src/public-api';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 

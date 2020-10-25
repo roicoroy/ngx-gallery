@@ -4,9 +4,9 @@ import { Overlay, OverlayRef, OverlayConfig } from '@angular/cdk/overlay';
 import { LEFT_ARROW, RIGHT_ARROW, ESCAPE } from '@angular/cdk/keycodes';
 import { Subject } from 'rxjs';
 
-import { Gallery } from 'ng-gallery';
+// import { Gallery } from 'ng-gallery';
 // Uncomment the following line in development mode
-// import { Gallery } from '../../src/public-api';
+import { Gallery } from '../../src/public-api';
 
 import { LightboxConfig, LIGHTBOX_CONFIG } from './lightbox.model';
 import { defaultConfig } from './lightbox.default';

@@ -163,6 +163,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ng-gallery-demo"
+    }
+  },
+  "defaultProject": "ng-gallery-demo",
+  "cli": {
+    "analytics": "8aed1ca7-3413-4f6e-ad78-38f85f5c7970"
+  }
 }

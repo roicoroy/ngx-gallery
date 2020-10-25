@@ -19,7 +19,12 @@ export class AppComponent implements OnInit {
   title: string;
   @ViewChild(MatSidenav) sideNav: MatSidenav;
 
-  constructor(private _router: Router, private matIconRegistry: MatIconRegistry, domSanitizer: DomSanitizer) {
+  constructor(
+    private _router: Router,
+    private matIconRegistry: MatIconRegistry, 
+    
+    domSanitizer: DomSanitizer
+  ) {
     this.matIconRegistry.addSvgIcon(
       'logo',
       domSanitizer.bypassSecurityTrustResourceUrl('assets/img/ng-gallery.svg')
