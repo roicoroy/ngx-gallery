@@ -1,4 +1,4 @@
-<ng-progress color="#E91E63"></ng-progress>
+<!-- <ng-progress color="#E91E63"></ng-progress>
 
 <mat-sidenav-container>
   <mat-sidenav #sidenav>
@@ -10,8 +10,6 @@
   </mat-sidenav>
 
   <div fxLayout="column" class="main-wrapper">
-
-    <!-- MAIN TOOLBAR -->
 
     <mat-toolbar color="primary">
       <a mat-button class="toggle-button" (click)="sidenav.open()">
@@ -27,13 +25,14 @@
 
       <span fxFlex></span>
       <menu></menu>
-    </mat-toolbar>
+    </mat-toolbar> -->
 
-    <!-- ROUTER OUTLET -->
 
     <main fxFlex [@sideAnimation]="getState(o)">
       <router-outlet #o="outlet"></router-outlet>
     </main>
+
+<!--     
   </div>
 
-</mat-sidenav-container>
+</mat-sidenav-container> -->
